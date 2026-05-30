@@ -1,0 +1,21 @@
+{
+    "/health": {
+        "status_code": 200,
+        "response": {
+            "status": "OK"
+        }
+    },
+    "/predict": {
+        "status_code": 200,
+        "response": {
+            "predicted_knee_angle": 55.178367614746094,
+            "angle_category": "30-60",
+            "raw_ml_prediction": 55.178367614746094,
+            "latency_ms": 336.51770000005854,
+            "features_extracted": {
+                "RF_mav": 0.04938938154700678,
+                "ST_rms": 0.05436285364164221
+            }
+        }
+    }
+}
