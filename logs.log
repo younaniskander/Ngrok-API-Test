@@ -360,3 +360,659 @@ Alternately, you can install this by running `pip install pycaret[models]`
                 ('normalize', TransformerWrapper(transformer=StandardScaler())),
                 ('actual_estimator', LinearRegression(n_jobs=-1))])
 2026-05-29 16:32:01,110:INFO:save_model() successfully completed......................................
+2026-05-29 16:39:23,787:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-29 16:39:23,788:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-29 16:39:23,789:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-29 16:39:23,789:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-29 16:39:24,410:INFO:Initializing load_model()
+2026-05-29 16:39:24,410:INFO:load_model(model_name=C:\Users\youna\Downloads\emg+dataset+in+lower+limb\SEMG_DB1\emg_pipeline, platform=None, authentication=None, verbose=True)
+2026-05-29 16:45:16,291:INFO:Initializing predict_model()
+2026-05-29 16:45:16,291:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FACF5E0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2D30>)
+2026-05-29 16:45:16,291:INFO:Checking exceptions
+2026-05-29 16:45:16,291:INFO:Preloading libraries
+2026-05-29 16:45:16,292:INFO:Set up data.
+2026-05-29 16:45:16,298:INFO:Set up index.
+2026-05-29 16:45:16,443:INFO:Initializing predict_model()
+2026-05-29 16:45:16,443:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2130>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2430>)
+2026-05-29 16:45:16,443:INFO:Checking exceptions
+2026-05-29 16:45:16,443:INFO:Preloading libraries
+2026-05-29 16:45:16,444:INFO:Set up data.
+2026-05-29 16:45:16,452:INFO:Set up index.
+2026-05-29 16:45:16,743:INFO:Initializing predict_model()
+2026-05-29 16:45:16,743:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAB1C70>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAD6670>)
+2026-05-29 16:45:16,743:INFO:Checking exceptions
+2026-05-29 16:45:16,743:INFO:Preloading libraries
+2026-05-29 16:45:16,744:INFO:Set up data.
+2026-05-29 16:45:16,748:INFO:Set up index.
+2026-05-29 16:45:16,978:INFO:Initializing predict_model()
+2026-05-29 16:45:16,978:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAB1760>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAD68B0>)
+2026-05-29 16:45:16,978:INFO:Checking exceptions
+2026-05-29 16:45:16,978:INFO:Preloading libraries
+2026-05-29 16:45:16,978:INFO:Set up data.
+2026-05-29 16:45:16,983:INFO:Set up index.
+2026-05-29 16:45:17,277:INFO:Initializing predict_model()
+2026-05-29 16:45:17,277:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2250>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAD65E0>)
+2026-05-29 16:45:17,277:INFO:Checking exceptions
+2026-05-29 16:45:17,277:INFO:Preloading libraries
+2026-05-29 16:45:17,277:INFO:Set up data.
+2026-05-29 16:45:17,283:INFO:Set up index.
+2026-05-29 16:45:17,616:INFO:Initializing predict_model()
+2026-05-29 16:45:17,616:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAD51C0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2D30>)
+2026-05-29 16:45:17,616:INFO:Checking exceptions
+2026-05-29 16:45:17,616:INFO:Preloading libraries
+2026-05-29 16:45:17,617:INFO:Set up data.
+2026-05-29 16:45:17,622:INFO:Set up index.
+2026-05-29 16:45:17,884:INFO:Initializing predict_model()
+2026-05-29 16:45:17,884:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FACF5E0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2E50>)
+2026-05-29 16:45:17,884:INFO:Checking exceptions
+2026-05-29 16:45:17,884:INFO:Preloading libraries
+2026-05-29 16:45:17,884:INFO:Set up data.
+2026-05-29 16:45:17,891:INFO:Set up index.
+2026-05-29 16:45:18,221:INFO:Initializing predict_model()
+2026-05-29 16:45:18,222:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAD5940>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2820>)
+2026-05-29 16:45:18,222:INFO:Checking exceptions
+2026-05-29 16:45:18,222:INFO:Preloading libraries
+2026-05-29 16:45:18,222:INFO:Set up data.
+2026-05-29 16:45:18,227:INFO:Set up index.
+2026-05-29 16:45:18,481:INFO:Initializing predict_model()
+2026-05-29 16:45:18,481:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2340>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2C10>)
+2026-05-29 16:45:18,481:INFO:Checking exceptions
+2026-05-29 16:45:18,481:INFO:Preloading libraries
+2026-05-29 16:45:18,482:INFO:Set up data.
+2026-05-29 16:45:18,489:INFO:Set up index.
+2026-05-29 16:45:18,919:INFO:Initializing predict_model()
+2026-05-29 16:45:18,919:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2490>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB23A0>)
+2026-05-29 16:45:18,919:INFO:Checking exceptions
+2026-05-29 16:45:18,919:INFO:Preloading libraries
+2026-05-29 16:45:18,919:INFO:Set up data.
+2026-05-29 16:45:18,926:INFO:Set up index.
+2026-05-29 16:45:19,107:INFO:Initializing predict_model()
+2026-05-29 16:45:19,108:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2B20>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2A60>)
+2026-05-29 16:45:19,108:INFO:Checking exceptions
+2026-05-29 16:45:19,108:INFO:Preloading libraries
+2026-05-29 16:45:19,108:INFO:Set up data.
+2026-05-29 16:45:19,116:INFO:Set up index.
+2026-05-29 16:45:19,391:INFO:Initializing predict_model()
+2026-05-29 16:45:19,391:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2370>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2D30>)
+2026-05-29 16:45:19,391:INFO:Checking exceptions
+2026-05-29 16:45:19,391:INFO:Preloading libraries
+2026-05-29 16:45:19,392:INFO:Set up data.
+2026-05-29 16:45:19,399:INFO:Set up index.
+2026-05-29 16:45:19,679:INFO:Initializing predict_model()
+2026-05-29 16:45:19,679:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2FD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2E50>)
+2026-05-29 16:45:19,679:INFO:Checking exceptions
+2026-05-29 16:45:19,679:INFO:Preloading libraries
+2026-05-29 16:45:19,680:INFO:Set up data.
+2026-05-29 16:45:19,686:INFO:Set up index.
+2026-05-29 16:45:19,970:INFO:Initializing predict_model()
+2026-05-29 16:45:19,970:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2820>)
+2026-05-29 16:45:19,970:INFO:Checking exceptions
+2026-05-29 16:45:19,970:INFO:Preloading libraries
+2026-05-29 16:45:19,971:INFO:Set up data.
+2026-05-29 16:45:19,976:INFO:Set up index.
+2026-05-29 16:45:20,411:INFO:Initializing predict_model()
+2026-05-29 16:45:20,411:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAD5A90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2B80>)
+2026-05-29 16:45:20,411:INFO:Checking exceptions
+2026-05-29 16:45:20,412:INFO:Preloading libraries
+2026-05-29 16:45:20,412:INFO:Set up data.
+2026-05-29 16:45:20,421:INFO:Set up index.
+2026-05-29 16:45:20,591:INFO:Initializing predict_model()
+2026-05-29 16:45:20,591:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2D00>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB28B0>)
+2026-05-29 16:45:20,592:INFO:Checking exceptions
+2026-05-29 16:45:20,592:INFO:Preloading libraries
+2026-05-29 16:45:20,592:INFO:Set up data.
+2026-05-29 16:45:20,599:INFO:Set up index.
+2026-05-29 16:45:20,880:INFO:Initializing predict_model()
+2026-05-29 16:45:20,881:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAD5EB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB23A0>)
+2026-05-29 16:45:20,881:INFO:Checking exceptions
+2026-05-29 16:45:20,881:INFO:Preloading libraries
+2026-05-29 16:45:20,881:INFO:Set up data.
+2026-05-29 16:45:20,887:INFO:Set up index.
+2026-05-29 16:45:21,183:INFO:Initializing predict_model()
+2026-05-29 16:45:21,183:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2D30>)
+2026-05-29 16:45:21,183:INFO:Checking exceptions
+2026-05-29 16:45:21,183:INFO:Preloading libraries
+2026-05-29 16:45:21,185:INFO:Set up data.
+2026-05-29 16:45:21,192:INFO:Set up index.
+2026-05-29 16:45:21,486:INFO:Initializing predict_model()
+2026-05-29 16:45:21,486:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAD5760>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2E50>)
+2026-05-29 16:45:21,486:INFO:Checking exceptions
+2026-05-29 16:45:21,487:INFO:Preloading libraries
+2026-05-29 16:45:21,487:INFO:Set up data.
+2026-05-29 16:45:21,493:INFO:Set up index.
+2026-05-29 16:45:21,779:INFO:Initializing predict_model()
+2026-05-29 16:45:21,779:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FACF1F0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2A60>)
+2026-05-29 16:45:21,779:INFO:Checking exceptions
+2026-05-29 16:45:21,779:INFO:Preloading libraries
+2026-05-29 16:45:21,780:INFO:Set up data.
+2026-05-29 16:45:21,787:INFO:Set up index.
+2026-05-29 16:45:22,110:INFO:Initializing predict_model()
+2026-05-29 16:45:22,111:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAD50D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB28B0>)
+2026-05-29 16:45:22,111:INFO:Checking exceptions
+2026-05-29 16:45:22,111:INFO:Preloading libraries
+2026-05-29 16:45:22,111:INFO:Set up data.
+2026-05-29 16:45:22,119:INFO:Set up index.
+2026-05-29 16:45:22,385:INFO:Initializing predict_model()
+2026-05-29 16:45:22,385:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2FA0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2B80>)
+2026-05-29 16:45:22,386:INFO:Checking exceptions
+2026-05-29 16:45:22,386:INFO:Preloading libraries
+2026-05-29 16:45:22,386:INFO:Set up data.
+2026-05-29 16:45:22,392:INFO:Set up index.
+2026-05-29 16:45:22,670:INFO:Initializing predict_model()
+2026-05-29 16:45:22,670:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC20A0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2D30>)
+2026-05-29 16:45:22,670:INFO:Checking exceptions
+2026-05-29 16:45:22,670:INFO:Preloading libraries
+2026-05-29 16:45:22,670:INFO:Set up data.
+2026-05-29 16:45:22,675:INFO:Set up index.
+2026-05-29 16:45:23,124:INFO:Initializing predict_model()
+2026-05-29 16:45:23,124:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2CA0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB23A0>)
+2026-05-29 16:45:23,124:INFO:Checking exceptions
+2026-05-29 16:45:23,124:INFO:Preloading libraries
+2026-05-29 16:45:23,124:INFO:Set up data.
+2026-05-29 16:45:23,130:INFO:Set up index.
+2026-05-29 16:45:23,269:INFO:Initializing predict_model()
+2026-05-29 16:45:23,269:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2D90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2E50>)
+2026-05-29 16:45:23,269:INFO:Checking exceptions
+2026-05-29 16:45:23,270:INFO:Preloading libraries
+2026-05-29 16:45:23,270:INFO:Set up data.
+2026-05-29 16:45:23,277:INFO:Set up index.
+2026-05-29 16:45:23,579:INFO:Initializing predict_model()
+2026-05-29 16:45:23,579:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2B50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2EE0>)
+2026-05-29 16:45:23,579:INFO:Checking exceptions
+2026-05-29 16:45:23,579:INFO:Preloading libraries
+2026-05-29 16:45:23,579:INFO:Set up data.
+2026-05-29 16:45:23,585:INFO:Set up index.
+2026-05-29 16:45:23,871:INFO:Initializing predict_model()
+2026-05-29 16:45:23,871:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FACF220>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2790>)
+2026-05-29 16:45:23,872:INFO:Checking exceptions
+2026-05-29 16:45:23,872:INFO:Preloading libraries
+2026-05-29 16:45:23,872:INFO:Set up data.
+2026-05-29 16:45:23,877:INFO:Set up index.
+2026-05-29 16:45:24,328:INFO:Initializing predict_model()
+2026-05-29 16:45:24,328:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC28E0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2820>)
+2026-05-29 16:45:24,328:INFO:Checking exceptions
+2026-05-29 16:45:24,329:INFO:Preloading libraries
+2026-05-29 16:45:24,329:INFO:Set up data.
+2026-05-29 16:45:24,336:INFO:Set up index.
+2026-05-29 16:45:24,478:INFO:Initializing predict_model()
+2026-05-29 16:45:24,478:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2F10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2CA0>)
+2026-05-29 16:45:24,478:INFO:Checking exceptions
+2026-05-29 16:45:24,478:INFO:Preloading libraries
+2026-05-29 16:45:24,478:INFO:Set up data.
+2026-05-29 16:45:24,486:INFO:Set up index.
+2026-05-29 16:45:24,786:INFO:Initializing predict_model()
+2026-05-29 16:45:24,786:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC29A0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2F70>)
+2026-05-29 16:45:24,786:INFO:Checking exceptions
+2026-05-29 16:45:24,786:INFO:Preloading libraries
+2026-05-29 16:45:24,786:INFO:Set up data.
+2026-05-29 16:45:24,791:INFO:Set up index.
+2026-05-29 16:45:25,077:INFO:Initializing predict_model()
+2026-05-29 16:45:25,077:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2790>)
+2026-05-29 16:45:25,077:INFO:Checking exceptions
+2026-05-29 16:45:25,078:INFO:Preloading libraries
+2026-05-29 16:45:25,078:INFO:Set up data.
+2026-05-29 16:45:25,083:INFO:Set up index.
+2026-05-29 16:45:25,374:INFO:Initializing predict_model()
+2026-05-29 16:45:25,374:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC21C0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2EE0>)
+2026-05-29 16:45:25,374:INFO:Checking exceptions
+2026-05-29 16:45:25,374:INFO:Preloading libraries
+2026-05-29 16:45:25,374:INFO:Set up data.
+2026-05-29 16:45:25,379:INFO:Set up index.
+2026-05-29 16:47:16,442:INFO:Initializing predict_model()
+2026-05-29 16:47:16,442:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAD5EB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAD68B0>)
+2026-05-29 16:47:16,442:INFO:Checking exceptions
+2026-05-29 16:47:16,442:INFO:Preloading libraries
+2026-05-29 16:47:16,442:INFO:Set up data.
+2026-05-29 16:47:16,449:INFO:Set up index.
+2026-05-29 16:47:16,668:INFO:Initializing predict_model()
+2026-05-29 16:47:16,668:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2FA0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2790>)
+2026-05-29 16:47:16,668:INFO:Checking exceptions
+2026-05-29 16:47:16,668:INFO:Preloading libraries
+2026-05-29 16:47:16,669:INFO:Set up data.
+2026-05-29 16:47:16,674:INFO:Set up index.
+2026-05-29 16:47:16,892:INFO:Initializing predict_model()
+2026-05-29 16:47:16,892:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2BB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2CA0>)
+2026-05-29 16:47:16,892:INFO:Checking exceptions
+2026-05-29 16:47:16,892:INFO:Preloading libraries
+2026-05-29 16:47:16,893:INFO:Set up data.
+2026-05-29 16:47:16,899:INFO:Set up index.
+2026-05-29 16:47:17,144:INFO:Initializing predict_model()
+2026-05-29 16:47:17,144:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAC2340>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB25E0>)
+2026-05-29 16:47:17,144:INFO:Checking exceptions
+2026-05-29 16:47:17,144:INFO:Preloading libraries
+2026-05-29 16:47:17,144:INFO:Set up data.
+2026-05-29 16:47:17,150:INFO:Set up index.
+2026-05-29 16:47:17,440:INFO:Initializing predict_model()
+2026-05-29 16:47:17,441:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAD5D90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2820>)
+2026-05-29 16:47:17,441:INFO:Checking exceptions
+2026-05-29 16:47:17,441:INFO:Preloading libraries
+2026-05-29 16:47:17,441:INFO:Set up data.
+2026-05-29 16:47:17,451:INFO:Set up index.
+2026-05-29 16:47:17,769:INFO:Initializing predict_model()
+2026-05-29 16:47:17,770:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002264FAD5F40>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['RF_mav', 'RF_rms', 'RF_wl',
+                                             'BF_mav', 'BF_rms', 'BF_wl',
+                                             'VM_mav', 'VM_rms', 'VM_wl',
+                                             'ST_mav', 'ST_rms', 'ST_wl'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', LinearRegression(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002264FAB2F70>)
+2026-05-29 16:47:17,770:INFO:Checking exceptions
+2026-05-29 16:47:17,770:INFO:Preloading libraries
+2026-05-29 16:47:17,770:INFO:Set up data.
+2026-05-29 16:47:17,776:INFO:Set up index.
